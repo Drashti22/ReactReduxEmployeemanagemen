@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form input{
+    width: 200px;
+    padding: 5px;
+}
+.submit-btn{
+    background-color: #7330FA;
+    color: white;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.submit-btn:disabled {
+    background-color: #b89eec; /* Change to a different color */
+    cursor: not-allowed;
+  }
+
+.error-message{
+    color: red;
+    font-size: small;
+}
+
+.star{
+    color: red;
+}
